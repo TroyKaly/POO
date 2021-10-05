@@ -1,4 +1,4 @@
-//Articulo.cpp
+//Articulo.cpp lprobando
 
 #include"Articulo.hpp"
 
@@ -8,3 +8,5 @@ ostream& operator<<(const ostream& o, const Articulo& articulo)
 {
 	o << "[" << articulo.codigo() << "] \"" << articulo.titulo() << "\", " << articulo.f_publi().anno() << ". " << art.precio() << "€" ;
 }
+
+
